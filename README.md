@@ -4,6 +4,6 @@ This project will show people and car segmentation from poor quality masks using
 # Importing resulting model
 ``` python
 import torch
-from resnet_unet import ResNetUNet
-model = torch.load('resnet_unet.pth')
+from model.resnet_unet import ResNetUNet
+model = torch.load('model/resnet_unet.pth')
 ```
